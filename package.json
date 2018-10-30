@@ -1,0 +1,29 @@
+{
+  "name": "meteor-vue-entrypoint",
+  "version": "1.0.0",
+  "keywords": "meteor, vue, integration",
+  "author": {
+    "name": "Tomasz Nolberczak",
+    "email": "tomasz.nolberczak@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomasz-nolberczak/meteor-vue-entrypoint"
+  },
+  "scripts": {
+    "start": "meteor run",
+    "dev": "meteor run --verbose"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.55",
+    "meteor-node-stubs": "^0.4.1",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
